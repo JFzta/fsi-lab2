@@ -97,7 +97,7 @@ module.exports = async options =>
         },
       ),
       new WebpackNotifierPlugin({
-        title: 'Laboratorio Fsi 2',
+        title: 'Aerolinea Virtual',
         contentImage: path.join(__dirname, 'logo-jhipster.png'),
       }),
     ].filter(Boolean),

@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.udea</groupId>
-    <artifactId>laboratorio-fsi-2</artifactId>
+    <artifactId>aerolinea-virtual</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>Laboratorio Fsi 2</name>
-    <description>Description for Laboratorio Fsi 2</description>
+    <name>Aerolinea Virtual</name>
+    <description>Description for Aerolinea Virtual</description>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -31,7 +31,7 @@
         <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <start-class>com.udea.LaboratorioFsi2App</start-class>
+        <start-class>com.udea.AerolineaVirtualApp</start-class>
         <argLine>-Djava.security.egd=file:/dev/./urandom -Xmx1G</argLine>
         <m2e.apt.activation>jdt_apt</m2e.apt.activation>
         <run.addResources>false</run.addResources>
@@ -634,7 +634,7 @@
                             </platforms>
                         </from>
                         <to>
-                            <image>laboratoriofsi2:latest</image>
+                            <image>aerolineavirtual:latest</image>
                         </to>
                         <container>
                             <entrypoint>
@@ -836,7 +836,7 @@
             <properties>
                 <!-- default Spring profiles -->
                 <liquibase-plugin.password/>
-                <liquibase-plugin.url>jdbc:mysql://localhost:3306/laboratorioFsi2</liquibase-plugin.url>
+                <liquibase-plugin.url>jdbc:mysql://localhost:3306/aerolineaVirtual</liquibase-plugin.url>
                 <liquibase-plugin.username>root</liquibase-plugin.username>
                 <profile.test>test,testdev</profile.test>
                 <spring.profiles.active>dev${profile.tls}${profile.no-liquibase}</spring.profiles.active>
@@ -957,7 +957,7 @@
             <properties>
                 <!-- default Spring profiles -->
                 <liquibase-plugin.password/>
-                <liquibase-plugin.url>jdbc:mysql://localhost:3306/laboratorioFsi2</liquibase-plugin.url>
+                <liquibase-plugin.url>jdbc:mysql://localhost:3306/aerolineaVirtual</liquibase-plugin.url>
                 <liquibase-plugin.username>root</liquibase-plugin.username>
                 <profile.test>test,testprod</profile.test>
                 <spring.profiles.active>prod${profile.api-docs}${profile.tls}${profile.e2e}${profile.no-liquibase}</spring.profiles.active>
