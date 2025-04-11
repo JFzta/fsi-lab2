@@ -1,6 +1,7 @@
 {
   "generator-jhipster": {
     "applicationType": "monolith",
+    "appsFolders": ["LaboratorioFSI2"],
     "authenticationType": "jwt",
     "baseName": "aerolineaVirtual",
     "buildTool": "maven",
@@ -11,6 +12,7 @@
     "creationTimestamp": 1744267922522,
     "databaseType": "sql",
     "devDatabaseType": "mysql",
+    "directoryPath": "../",
     "enableHibernateCache": true,
     "enableTranslation": true,
     "entities": ["Pasajero", "Reserva", "Vuelo", "Asiento"],
@@ -21,12 +23,13 @@
     "lastLiquibaseTimestamp": 1744304482000,
     "microfrontend": null,
     "microfrontends": [],
+    "monitoring": "no",
     "nativeLanguage": "es",
     "packageName": "com.udea",
     "prodDatabaseType": "mysql",
     "reactive": false,
     "serverPort": null,
-    "serviceDiscoveryType": null,
+    "serviceDiscoveryType": "no",
     "syncUserWithIdp": null,
     "testFrameworks": [],
     "withAdminUi": true
